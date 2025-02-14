@@ -17,6 +17,5 @@ for i in range(n-1):
             min_index = j
     min_value = my_array.pop(min_index)
     my_array.insert(i, min_value)
-    breakpoint()
 
-print("Sorted array : ", )
+print("Sorted array : ", my_array)

@@ -1,4 +1,5 @@
 # To find the least number in the array.
+# Time complexity: O(1)
 
 my_array = [7, 12, 9, 4, 11]
 

@@ -10,6 +10,8 @@
 # 4. Do the same operations (recursively) for the sub-arrays on the left
 # and right side of the pivot element.
 
+# Time complexity: O(n * log n)
+
 def median_of_three(array, low, high):
     mid = (low + high) // 2
     a, b, c = array[low], array[mid], array[high]
